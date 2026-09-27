@@ -1,0 +1,13 @@
+name = "oscar-p2p-api"
+main = "p2p-worker.js"
+compatibility_date = "2026-09-26"
+
+# ضع ALLOWED_ORIGIN من Dashboard أو هنا بعد استبدال المثال.
+# [vars]
+# ALLOWED_ORIGIN = "https://your-store.example.com"
+
+# لا تضع التوكنات هنا إذا كان الملف سيرفع إلى GitHub.
+# استخدم Cloudflare Secrets للآتي:
+# TURSO_DATABASE_URL
+# TURSO_AUTH_TOKEN
+# TELEGRAM_BOT_TOKEN
